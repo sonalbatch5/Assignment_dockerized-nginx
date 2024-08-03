@@ -57,14 +57,14 @@ Access the webpage by navigating to http://localhost in your web browser
 
 2. **Build and Tag Your Image:**
 
-       docker build -t sonal_dockerizing-html .
+       docker build -t sonal-repo .
 
-       docker tag sonal_dockerizing-html:latest public.ecr.aws/f8g8h5d4/sonal_dockerizing-html:latest
+       docker tag sonal-repo:latest public.ecr.aws/f8g8h5d4/sonal-repo:latest
 
 
 3. **Push your Docker image to the ECR repository:**
 
-       docker push public.ecr.aws/f8g8h5d4/sonal_dockerizing-html:latest
+       docker push public.ecr.aws/f8g8h5d4/sonal-repo:latest
 
 **Public ECR Repository:**
 
